@@ -18,3 +18,11 @@ const askSomething = () => {
         console.log('Dure jaiya Morek');
     }
 }
+
+const getUserInfo = () => {
+    const name = prompt('Tell Us About Yourself')
+    console.log(name);
+    if( !!name){
+        console.log('Welcome to here', name)
+    }
+}
