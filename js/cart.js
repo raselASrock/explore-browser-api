@@ -11,4 +11,12 @@ const addProduct = () =>{
 
     const product = getInputValueById('product-name-field');
     console.log(product);
+    const quantity = getInputValueById('product-quantity-field');
+    console.log(quantity);
+
+    // Set to local Storage
+    // Simple Way 
+    localStorage.setItem(product, quantity)
 }
+
+const displayProducts = 
